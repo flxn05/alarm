@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mobile.css">
+  <title>Smart Alarm</title>
+  <!--
+  IDs
+    Wakeup Time "time";
+    Standby Time "standby";
+  -->
+</head>
+
+<body>
+  <div class="app">
+    <h1>Alarm</h1>
+
+    <h4>Wakeup Time</h4>
+    <input type="time" id="wakeup">
+
+    <h4>Standby Time</h4>
+    <input type="number" id="standby" placeholder="min">
+
+    <h4>Meditation Color</h4>
+    <div>
+      <input type="radio" id="med1" name="theme">
+      <label for="med1">Blue/Green Gradient</label>
+      <br>
+      <input type="radio" id="med2" name="theme">
+      <label for="med2">Water</label>
+      <br>
+      <input type="radio" id="med3" name="theme">
+      <label for="med3">Forest</label>
+      <br>
+      <input type="radio" id="med4" name="theme">
+      <label for="med4">Journey</label>
+    </div>
+    <button style="color: black;">save changes</button>
+    <h4>Play Now</h4>
+    <h4>Lights Now</h4>
+  </div>
+</body>
+
+</html>
